@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <!--PAGE INFO-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BarberShop</title>
+
+     <!-- BIBLIOTECA SWIPER JS .COM-->
+     <link
+     rel="stylesheet"
+     href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+   />
+    <!--STYLES-->
+    <link rel="stylesheet" href="style.css" />
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--icones-->
+    <link rel="stylesheet" href="/assets/style.css" />
+
+   
+  </head>
+  <body>
+    <header id="header">
+      <nav class="container">
+        <a class="logo" href="#"><h1>Barber<span>Shop</span>.</h1></a>
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="titlle" href="#home"> Inicio</a></li>
+            <li><a class="titlle" href="#about">Sobre</a></li>
+            <li><a class="titlle" href="#services"> Serviços</a></li>
+            <li><a class="titlle" href="#testimonials"> Depoimentos</a></li>
+            <li><a class="titlle" href="#contact">Contato</a></li>
+          </ul>
+        </div>
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-close"></div>
+      </nav>
+    </header>
+
+    <main>
+      <!--HOME-->
+      <section class="section" id="home">
+        <div class="container grid">
+          <!--posos adicionar quantas classes quiser-->
+          <div class="image">
+            <img
+              src="https://images.unsplash.com/photo-1599351430140-c70f0250bd70?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8aGFpcmRyZXNzZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60"
+              alt="imagem1"
+            />
+          </div>
+          <!--- style="width: 335px; height: 224"-->
+          <div class="text">
+            <h2 class="titlle">
+              Produtos e serviços de qualidade para todos os tipos e estilos de
+              cabelo.
+            </h2>
+            <p>
+              Um salão exclusivo em Belo Horizonte, especializado em tratamentos
+              naturais.
+            </p>
+            <a class="button" href="#">Agendar um Horario</a>
+          </div>
+        </div>
+      </section>
+      <div class="divider-1"></div>
+                 <!--ABOUT-->
+      <section class="section" id="about">
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="https://media.istockphoto.com/photos/man-at-hair-salon-picture-id1096942782?b=1&k=20&m=1096942782&s=170667a&w=0&h=7-mOWJXcJ1fvOZkljNVGqi3FltkG1YLlMqhjrxGGo1o="
+              alt="IMGsobre"
+            />
+          </div>
+          <div class="text">
+            <h2 class="titlle">Sobre Nós</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde
+              pariatur soluta voluptate est dicta, consectetur voluptates
+              officiis tempore ex deserunt et provident. Temporibus, maxime
+              error.
+            </p>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repudiandae tempore porro voluptatem blanditiis debitis minus
+              veritatis adipisci vitae quisquam facilis.
+            </p>
+            <br />
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores
+              hic pariatur, consequatur recusandae nam eligendi unde explicabo
+              adipisci vero reiciendis, et quod voluptate.
+            </p>
+          </div>
+        </div>
+      </section>
+      <div class="divider-2"></div>
+
+      <section class="section" id="services">
+        <div class="container grid">
+          <header>
+          <h2 class="titlle">Serviços</h2>
+          <p class="subtitle"> Lorem ipsum dolor sit amet <strong>BARBERSHOP</strong> adipisicing elit. Animi laborum quia eius? Obcaecati architecto ducimus iure velit? Vel, veritatis voluptatibus shfuwrfk sijd 8uej  iwu uw8dw h hw8 dh h .</p>
+          </header>
+          <div class="cards grid">
+            <div class="card">
+              <i class="icon-Vector"></i> <!-- I sao usados para trabalhar om icones-->
+              <h3 class="titlle">Tratamentos</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus illum, saepe dignissimos tempora provident perferendis.</p>
+            </div>
+            <div class="card">
+              <i class="icon-trim"></i>
+              <h3 class="titlle">Cortes</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum quasi doloremque voluptate velit veniam ipsam.</p>
+            </div>
+            <div class="card">
+              <i class="icon-woman-hair"></i>
+              <h3 class="titlle">Terapia Capilar</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus veniam cum voluptate expedita incidunt reiciendis?</p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+
+      <!--TESTEMONIALS -->
+      <section class="section" id="testimonials">
+        <div class="container"> <!--tirando o grid resulvi o problema do slide infinito -->
+          <header style="margin-bottom: 15px;">
+            <h2 class="titlle">Depoimentos de quem já passou por aqui</h2>
+          </header>
+          <div class="testimonials swiper">
+            <div class="swiper-wrapper">
+
+                  <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus perspiciatis culpa quo sed autem sequi iste est eius deserunt, facere quaerat consectetur.
+                  </p>
+                  <cite>
+                    <img src="Perfil.jpg" alt="Perfil1">
+                    Wender Silva
+                  </cite>
+            </blockquote>
+               
+                     </div>
+                   <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus perspiciatis culpa quo sed autem sequi iste est eius deserunt, facere quaerat consectetur.
+                  </p>
+                  <cite>
+                    <img src="https://randomuser.me/api/portraits/men/79.jpg" alt="Perfil2">
+                    Yure Almeida
+                  </cite>
+            </blockquote>
+               
+                     </div>
+
+                  <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus perspiciatis culpa quo sed autem sequi iste est eius deserunt, facere quaerat consectetur.
+                  </p>
+                  <cite>
+                    <img src="https://randomuser.me/api/portraits/men/54.jpg" alt=Perfil3">
+                    Lucas Martinelli
+                  </cite>
+            </blockquote>
+               
+                    </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+            
+
+
+             
+        </div>
+        </div>
+      </section>
+          <div class="divider-1"></div>
+
+      <!--CONTATCT-->
+
+      <section class="section" id="contact">
+        <div class="container grid">
+
+          <div class="text">
+            <h2 class="titlle">Entre em contato com a gente!</h2>
+            <p>Entre em contato com a BarberShop, queremos tirar todas as suas duvidas, ouvir criticas e sugestoes</p>
+          <div class="botao">
+            <a href="" class="button"
+            target="_blank" 
+            ><i class="icon-whatsapp"></i> Entrar em contato </a>
+          </div>
+          </div>
+
+          <div class="Links">
+            <ul class="grid">
+              <li><i class="icon-phone1"></i> 031 98906-6785</li>
+              <li> <i class="icon-map-pin"></i> R. Amauri Souza Junior</li>
+              <li><i class="icon-mail"></i> BarberShop@yahoo.com</li>
+            </ul>
+          </div>
+
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+
+      </main>
+
+  <footer class="section">
+    <div class="container grid">
+      <div class="brand">
+        <a class="logo logo-alt" href="#home"><h3>Barber<span>Shop</span>.</h3></a>
+        <p>@2021 BarberShop</p>
+        <p>Pedro Henrique Lopes</p>
+        <!--Maratona rocketseat-->
+      </div>
+      <div class="social grid ">
+        <a href="https://instagram.com" target="_blank"><i class="icon-instagram"></i></a>
+        <a href="https://facebook.com" target="_blank"><i class="icon-facebook"></i></a>
+        <a href="https://youtube.com" target="_blank"><i class="icon-youtube"></i></a>
+      </div>
+    </div>
+  </footer>
+  <a href="#home" class="back-to-top "><i class="icon-arrow-circle-up"></i> </a>
+    <!--- JS SWIPER-->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script> 
+  <!--SCROLLREVELL-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+ 
+    <!--MEU JS-->
+    <script src="main.js"></script>
+  </body>
+</html>
